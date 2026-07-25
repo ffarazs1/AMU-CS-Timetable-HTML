@@ -1,0 +1,2418 @@
+{
+  "metadata": {
+    "title": "Department of Computer Science Timetable",
+    "institution": "Aligarh Muslim University",
+    "academicYear": "2026-27",
+    "version": "Version 01",
+    "effectiveDate": "27 July 2026",
+    "lastTeachingDay": "TBA",
+    "schemaVersion": 1
+  },
+  "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "timeSlots": [
+    {
+      "id": 1,
+      "label": "I",
+      "time": "08:00–08:50"
+    },
+    {
+      "id": 2,
+      "label": "II",
+      "time": "08:55–09:45"
+    },
+    {
+      "id": 3,
+      "label": "III",
+      "time": "09:50–10:40"
+    },
+    {
+      "id": 4,
+      "label": "IV",
+      "time": "10:45–11:35"
+    },
+    {
+      "id": 5,
+      "label": "V",
+      "time": "11:40–12:30"
+    },
+    {
+      "id": 6,
+      "label": "VI",
+      "time": "12:35–01:25"
+    },
+    {
+      "id": 7,
+      "label": "VII",
+      "time": "02:30–03:20"
+    },
+    {
+      "id": 8,
+      "label": "VIII",
+      "time": "03:25–04:15"
+    },
+    {
+      "id": 9,
+      "label": "IX",
+      "time": "04:20–05:10"
+    }
+  ],
+  "teachers": {
+    "ARF": "Prof. Arman Rasool Faridi",
+    "SZ": "Prof. Swaleha Zubair",
+    "AIK": "Dr. Asif Irshad Khan",
+    "MN": "Dr. Mohammad Nadeem",
+    "MUB": "Prof. M. Ubaidullah Bokhari",
+    "PB": "Ms. Priti Bala",
+    "SEM": "Dr. Sehla Masood",
+    "AS": "Dr. Md. Ashraf Siddiqui",
+    "AZ": "Prof. Aasim Zafar",
+    "SM": "Mr. Shahid Masood",
+    "FA": "Dr. Faizal Anwer",
+    "FM": "Dr. Faraz Masood",
+    "SMU": "Prof. Suhel Mustajab",
+    "SA": "Dr. Shafiqul Abidin",
+    "MS": "Dr. Mohammad Sajid",
+    "SK": "Ms. Sajida Khatoon",
+    "PMK": "Dr. Parvez Mahmood Khan (PMNFCC)",
+    "T1": "T1 — name not listed in source",
+    "T2": "T2 — name not listed in source"
+  },
+  "sessions": [
+    {
+      "id": "session-1",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS1004",
+      "teachers": [
+        "ARF",
+        "FM"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-2",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS1004",
+      "teachers": [
+        "ARF",
+        "FM"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-3",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CAMS1001",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-4",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CAMS1N02*",
+      "teachers": [
+        "SZ"
+      ],
+      "room": "LT-7",
+      "kind": "Elective",
+      "note": "Bridge course"
+    },
+    {
+      "id": "session-5",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 8,
+      "endSlot": 8,
+      "course": "CAMS1N02*",
+      "teachers": [
+        "SZ"
+      ],
+      "room": "LT-7",
+      "kind": "Elective",
+      "note": "Bridge course"
+    },
+    {
+      "id": "session-6",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS1002",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-7",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS1003",
+      "teachers": [
+        "MUB"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-8",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 5,
+      "endSlot": 6,
+      "course": "CAMS1P01",
+      "teachers": [
+        "MUB",
+        "AS",
+        "ARF",
+        "FM"
+      ],
+      "room": "PG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: MUB/AS/11–13; G-II: ARF/FM/14–16"
+    },
+    {
+      "id": "session-9",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CAMS1005",
+      "teachers": [
+        "T2"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-10",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 8,
+      "endSlot": 8,
+      "course": "CAMS1005",
+      "teachers": [
+        "T2"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-11",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS1003",
+      "teachers": [
+        "MUB"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-12",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS1003",
+      "teachers": [
+        "MUB"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-13",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 5,
+      "endSlot": 6,
+      "course": "CAMS1P01",
+      "teachers": [
+        "MUB",
+        "AS",
+        "ARF",
+        "FM"
+      ],
+      "room": "PG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: MUB/AS/11–13; G-II: ARF/FM/14–16"
+    },
+    {
+      "id": "session-14",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CAMS1005",
+      "teachers": [
+        "T2"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-15",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 8,
+      "endSlot": 8,
+      "course": "CAMS1005",
+      "teachers": [
+        "T2"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-16",
+      "day": "Thursday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CAMS1001",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-17",
+      "day": "Thursday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CAMS1002",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-18",
+      "day": "Thursday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CAMS1N02*",
+      "teachers": [
+        "SZ"
+      ],
+      "room": "LT-7",
+      "kind": "Elective",
+      "note": "Bridge course"
+    },
+    {
+      "id": "session-19",
+      "day": "Thursday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 8,
+      "endSlot": 8,
+      "course": "CAMS1N02*",
+      "teachers": [
+        "SZ"
+      ],
+      "room": "LT-7",
+      "kind": "Elective",
+      "note": "Bridge course"
+    },
+    {
+      "id": "session-20",
+      "day": "Friday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS1002",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-21",
+      "day": "Friday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS1002",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-22",
+      "day": "Friday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CAMS1003",
+      "teachers": [
+        "MUB"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-23",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 1,
+      "endSlot": 2,
+      "course": "CAMS1P01",
+      "teachers": [
+        "MUB",
+        "AS",
+        "ARF",
+        "FM"
+      ],
+      "room": "PG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: MUB/AS/11–13; G-II: ARF/FM/14–16"
+    },
+    {
+      "id": "session-24",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS1001",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-25",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS1001",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-26",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CAMS1004",
+      "teachers": [
+        "ARF",
+        "FM"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-27",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CAMS1004",
+      "teachers": [
+        "ARF",
+        "FM"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-28",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CAMS1N01*",
+      "teachers": [
+        "PB"
+      ],
+      "room": "LT-7",
+      "kind": "Elective",
+      "note": "Bridge course"
+    },
+    {
+      "id": "session-29",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 1,
+      "classLabel": "MCA I",
+      "startSlot": 8,
+      "endSlot": 8,
+      "course": "CAMS1N01*",
+      "teachers": [
+        "PB"
+      ],
+      "room": "LT-7",
+      "kind": "Elective",
+      "note": "Bridge course"
+    },
+    {
+      "id": "session-30",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CAMS3004",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-31",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS3E02",
+      "teachers": [
+        "AZ",
+        "AS"
+      ],
+      "room": "LTU-2",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-32",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS3E02",
+      "teachers": [
+        "AZ",
+        "AS"
+      ],
+      "room": "LTU-2",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-33",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CAMS3003",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-34",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CAMS3003",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-35",
+      "day": "Monday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CAMS3E08",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-36",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CAMS3E08",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-3",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-37",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS3001",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-38",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS3001",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-39",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CAMS3004",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-40",
+      "day": "Tuesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CAMS3002",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-41",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CAMS3E08",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-3",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-42",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 3,
+      "endSlot": 4,
+      "course": "CAMS3P01",
+      "teachers": [
+        "AZ",
+        "AS",
+        "FA",
+        "FM"
+      ],
+      "room": "PG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: AZ/AS/11–13; G-II: FA/FM/14–16"
+    },
+    {
+      "id": "session-43",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CAMS3004",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-44",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CAMS3001",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-45",
+      "day": "Wednesday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CAMS3002",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-46",
+      "day": "Thursday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CAMS3003",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-47",
+      "day": "Thursday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS3002",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-48",
+      "day": "Thursday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS3002",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-49",
+      "day": "Thursday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 5,
+      "endSlot": 6,
+      "course": "CAMS3P01",
+      "teachers": [
+        "AZ",
+        "AS",
+        "FA",
+        "FM"
+      ],
+      "room": "PG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: AZ/AS/11–13; G-II: FA/FM/14–16"
+    },
+    {
+      "id": "session-50",
+      "day": "Friday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 1,
+      "endSlot": 2,
+      "course": "CAMS3P01",
+      "teachers": [
+        "AZ",
+        "AS",
+        "FA",
+        "FM"
+      ],
+      "room": "PG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: AZ/AS/11–13; G-II: FA/FM/14–16"
+    },
+    {
+      "id": "session-51",
+      "day": "Friday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS3004",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-52",
+      "day": "Friday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS3E08",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-2",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-53",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CAMS3003",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-54",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CAMS3E02",
+      "teachers": [
+        "AZ",
+        "AS"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-55",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CAMS3E02",
+      "teachers": [
+        "AZ",
+        "AS"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-56",
+      "day": "Saturday",
+      "programme": "MCA",
+      "semester": 3,
+      "classLabel": "MCA III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CAMS3001",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-57",
+      "day": "Monday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "COMSMJ1002",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-58",
+      "day": "Monday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "COMSMJ1E01",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-59",
+      "day": "Monday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "COMSMJ1E02",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LT-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-60",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 3,
+      "endSlot": 4,
+      "course": "COMSMJ1P01",
+      "teachers": [
+        "AIK",
+        "MS",
+        "AS",
+        "SK"
+      ],
+      "room": "CS Lab • Labs 12–13",
+      "kind": "Lab"
+    },
+    {
+      "id": "session-61",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 5,
+      "endSlot": 6,
+      "course": "COMSMJ1D01",
+      "teachers": [],
+      "room": "Department",
+      "kind": "Dissertation",
+      "note": "Dissertation Phase-I"
+    },
+    {
+      "id": "session-62",
+      "day": "Wednesday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "COMSMJ1E01",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LT-7",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-63",
+      "day": "Wednesday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "COMSMJ1002",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-64",
+      "day": "Wednesday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "COMSMJ1002",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-65",
+      "day": "Wednesday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "COMSMJ1001",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-66",
+      "day": "Thursday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 1,
+      "endSlot": 2,
+      "course": "COMSMJ1P01",
+      "teachers": [
+        "AIK",
+        "MS",
+        "AS",
+        "SK"
+      ],
+      "room": "CS Lab • Labs 11–13",
+      "kind": "Lab"
+    },
+    {
+      "id": "session-67",
+      "day": "Thursday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "COMSMJ1E02",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-68",
+      "day": "Thursday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "COMSMJ1E01",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-69",
+      "day": "Thursday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "COMSMJ1001",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-70",
+      "day": "Friday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "COMSMJ1001",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-71",
+      "day": "Friday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "COMSMJ1002",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-72",
+      "day": "Friday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "COMSMJ1E02",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LTU-3",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-73",
+      "day": "Saturday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "COMSMJ1001",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-74",
+      "day": "Saturday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "COMSMJ1E01",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-3",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-75",
+      "day": "Saturday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "COMSMJ1E02",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-76",
+      "day": "Saturday",
+      "programme": "M.Sc.",
+      "semester": 1,
+      "classLabel": "M.Sc. I",
+      "startSlot": 5,
+      "endSlot": 6,
+      "course": "COMSMJ1P01",
+      "teachers": [
+        "AIK",
+        "MS",
+        "AS",
+        "SK"
+      ],
+      "room": "CS Lab • Labs 11–13",
+      "kind": "Lab"
+    },
+    {
+      "id": "session-77",
+      "day": "Monday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CSMS3003",
+      "teachers": [
+        "PMK"
+      ],
+      "room": "PMNFCC",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-78",
+      "day": "Monday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CSMS3002",
+      "teachers": [
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-79",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 1,
+      "endSlot": 2,
+      "course": "CSMS3P01",
+      "teachers": [
+        "SMU",
+        "PB",
+        "FA",
+        "SK"
+      ],
+      "room": "CS Lab • Labs 14–16",
+      "kind": "Lab"
+    },
+    {
+      "id": "session-80",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CSMS3E01",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LT-7",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-81",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CSMS3001",
+      "teachers": [
+        "T1"
+      ],
+      "room": "LT-7",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-82",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CSMS3E02",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LT-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-83",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CSMS3002",
+      "teachers": [
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-84",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CSMS3E02",
+      "teachers": [
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-85",
+      "day": "Tuesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 8,
+      "endSlot": 8,
+      "course": "CSMS3E02",
+      "teachers": [
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-86",
+      "day": "Wednesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CSMS3E01",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LT-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-87",
+      "day": "Wednesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CSMS3001",
+      "teachers": [
+        "T1"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-88",
+      "day": "Wednesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CSMS3003",
+      "teachers": [
+        "PMK"
+      ],
+      "room": "PMNFCC",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-89",
+      "day": "Wednesday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CSMS3002",
+      "teachers": [
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-90",
+      "day": "Thursday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 3,
+      "endSlot": 4,
+      "course": "CSMS3P01",
+      "teachers": [
+        "SMU",
+        "PB",
+        "FA",
+        "SK"
+      ],
+      "room": "CS Lab • Labs 14–16",
+      "kind": "Lab"
+    },
+    {
+      "id": "session-91",
+      "day": "Thursday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CSMS3003",
+      "teachers": [
+        "PMK"
+      ],
+      "room": "PMNFCC",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-92",
+      "day": "Thursday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CSMS3002",
+      "teachers": [
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-93",
+      "day": "Thursday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CSMS3E01",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-94",
+      "day": "Friday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CSMS3001",
+      "teachers": [
+        "T1"
+      ],
+      "room": "LT-7",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-95",
+      "day": "Friday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CSMS3001",
+      "teachers": [
+        "T1"
+      ],
+      "room": "LT-7",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-96",
+      "day": "Friday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CSMS3003",
+      "teachers": [
+        "PMK"
+      ],
+      "room": "PMNFCC",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-97",
+      "day": "Saturday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 3,
+      "endSlot": 4,
+      "course": "CSMS3P01",
+      "teachers": [
+        "SMU",
+        "PB",
+        "FA",
+        "SK"
+      ],
+      "room": "CS Lab • Labs 14–16",
+      "kind": "Lab"
+    },
+    {
+      "id": "session-98",
+      "day": "Saturday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CSMS3E01",
+      "teachers": [
+        "FA"
+      ],
+      "room": "LT-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-99",
+      "day": "Saturday",
+      "programme": "M.Sc.",
+      "semester": 3,
+      "classLabel": "M.Sc. III",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CSMS3E02",
+      "teachers": [
+        "MS"
+      ],
+      "room": "LT-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-100",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 1,
+      "classLabel": "B.Sc. I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CABSMJ1001",
+      "teachers": [
+        "SM",
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-101",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 1,
+      "classLabel": "B.Sc. I",
+      "startSlot": 7,
+      "endSlot": 9,
+      "course": "CABSMJ1P01",
+      "teachers": [
+        "SM",
+        "AS",
+        "SMU",
+        "FM"
+      ],
+      "room": "PG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: SM/AS/11–13; G-II: SMU/FM/14–16"
+    },
+    {
+      "id": "session-102",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 1,
+      "classLabel": "B.Sc. I",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CABSMJ1001",
+      "teachers": [
+        "SM",
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-103",
+      "day": "Wednesday",
+      "programme": "B.Sc.",
+      "semester": 1,
+      "classLabel": "B.Sc. I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CABSMJ1001",
+      "teachers": [
+        "SM",
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-104",
+      "day": "Thursday",
+      "programme": "B.Sc.",
+      "semester": 1,
+      "classLabel": "B.Sc. I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CABSMJ1002",
+      "teachers": [
+        "PB"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-105",
+      "day": "Friday",
+      "programme": "B.Sc.",
+      "semester": 1,
+      "classLabel": "B.Sc. I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CABSMJ1001",
+      "teachers": [
+        "SM",
+        "SMU"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-106",
+      "day": "Saturday",
+      "programme": "B.Sc.",
+      "semester": 1,
+      "classLabel": "B.Sc. I",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CABSMJ1002",
+      "teachers": [
+        "PB"
+      ],
+      "room": "LT-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-107",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 3,
+      "classLabel": "B.Sc. III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSMJ3001",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-108",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 3,
+      "classLabel": "B.Sc. III",
+      "startSlot": 4,
+      "endSlot": 6,
+      "course": "CABSMJ3P03",
+      "teachers": [
+        "SA",
+        "AS",
+        "MN",
+        "FM"
+      ],
+      "room": "PG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: SA/AS/11–13; G-II: MN/FM/14–16"
+    },
+    {
+      "id": "session-109",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 3,
+      "classLabel": "B.Sc. III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSMJ3002",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-110",
+      "day": "Wednesday",
+      "programme": "B.Sc.",
+      "semester": 3,
+      "classLabel": "B.Sc. III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSMJ3002",
+      "teachers": [
+        "SEM"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-111",
+      "day": "Thursday",
+      "programme": "B.Sc.",
+      "semester": 3,
+      "classLabel": "B.Sc. III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSMJ3001",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-112",
+      "day": "Friday",
+      "programme": "B.Sc.",
+      "semester": 3,
+      "classLabel": "B.Sc. III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSMJ3001",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-113",
+      "day": "Saturday",
+      "programme": "B.Sc.",
+      "semester": 3,
+      "classLabel": "B.Sc. III",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSMJ3001",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-114",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSXO5003",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LT-7",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-115",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CABSXO5003",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LT-7",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-116",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CABSMJ5001",
+      "teachers": [
+        "SZ"
+      ],
+      "room": "LT-7",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-117",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSXO5003",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-3",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-118",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CABSMJ5001",
+      "teachers": [
+        "SZ"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-119",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CABSMJ5001",
+      "teachers": [
+        "SZ"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-120",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 7,
+      "endSlot": 9,
+      "course": "CABSMJ5P05",
+      "teachers": [
+        "SZ",
+        "AS",
+        "AIK",
+        "FM"
+      ],
+      "room": "UG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: SZ/AS/11–13; G-II: AIK/FM/14–16"
+    },
+    {
+      "id": "session-121",
+      "day": "Wednesday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSMJ5502",
+      "teachers": [
+        "ARF",
+        "FM"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-122",
+      "day": "Wednesday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CABSMJ5502",
+      "teachers": [
+        "ARF",
+        "FM"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-123",
+      "day": "Wednesday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CABSXO5003",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-2",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-124",
+      "day": "Thursday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 2,
+      "endSlot": 2,
+      "course": "CABSMJ5001",
+      "teachers": [
+        "SZ"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-125",
+      "day": "Thursday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 3,
+      "endSlot": 3,
+      "course": "CABSMJ5502",
+      "teachers": [
+        "ARF",
+        "FM"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-126",
+      "day": "Thursday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CABSMJ5502",
+      "teachers": [
+        "ARF",
+        "FM"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-127",
+      "day": "Friday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 3,
+      "endSlot": 5,
+      "course": "CABSMJ5P11",
+      "teachers": [
+        "AZ",
+        "SM",
+        "AS",
+        "PB",
+        "AIK",
+        "FM"
+      ],
+      "room": "UG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: AZ/SM/AS/11–13; G-II: PB/AIK/FM/14–16"
+    },
+    {
+      "id": "session-128",
+      "day": "Saturday",
+      "programme": "B.Sc.",
+      "semester": 5,
+      "classLabel": "B.Sc. V",
+      "startSlot": 7,
+      "endSlot": 9,
+      "course": "CABSMJ5P05",
+      "teachers": [
+        "SZ",
+        "AS",
+        "AIK",
+        "FM"
+      ],
+      "room": "UG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: SZ/AS/11–13; G-II: AIK/FM/14–16"
+    },
+    {
+      "id": "session-129",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 1,
+      "endSlot": 3,
+      "course": "CABSMJ7501",
+      "teachers": [
+        "SZ",
+        "PB",
+        "AS",
+        "SMU",
+        "FM"
+      ],
+      "room": "UG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: SZ/PB/AS/11–13; G-II: SMU/FM/14–16"
+    },
+    {
+      "id": "session-130",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CABSMJ7V018",
+      "teachers": [
+        "MUB"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-131",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CABSMJ7001",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-132",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CABSMJ7001",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-133",
+      "day": "Monday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 7,
+      "endSlot": 8,
+      "course": "CABSXO7006",
+      "teachers": [],
+      "room": "SWAYAM",
+      "kind": "Elective",
+      "note": "SWAYAM course"
+    },
+    {
+      "id": "session-134",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CABSMJ7002",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-135",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CABSMJ7V02*",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-2",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-136",
+      "day": "Tuesday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 7,
+      "endSlot": 8,
+      "course": "CABSXO7006",
+      "teachers": [],
+      "room": "SWAYAM",
+      "kind": "Elective",
+      "note": "SWAYAM course"
+    },
+    {
+      "id": "session-137",
+      "day": "Wednesday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CABSMJ7V02*",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LT-7",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-138",
+      "day": "Wednesday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CABSMJ7002",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LT-7",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-139",
+      "day": "Wednesday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 7,
+      "endSlot": 9,
+      "course": "CABSMJ7581",
+      "teachers": [
+        "SZ",
+        "FM",
+        "AS",
+        "SMU"
+      ],
+      "room": "UG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "As printed on source; group allocation across Labs 11–16"
+    },
+    {
+      "id": "session-140",
+      "day": "Thursday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CABSMJ7V02*",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LT-7",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-141",
+      "day": "Thursday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CABSMJ7001",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LT-7",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-142",
+      "day": "Thursday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 7,
+      "endSlot": 9,
+      "course": "CABSMJ7P07",
+      "teachers": [
+        "SA",
+        "AS",
+        "MN",
+        "FM"
+      ],
+      "room": "UG Lab • Labs 11–16",
+      "kind": "Lab",
+      "note": "G-I: SA/AS/11–13; G-II: MN/FM/14–16"
+    },
+    {
+      "id": "session-143",
+      "day": "Friday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 2,
+      "endSlot": 4,
+      "course": "CABSMJ7P08 / CABSMJ7D01",
+      "teachers": [],
+      "room": "Department",
+      "kind": "Project",
+      "note": "Mini Project / Project-I"
+    },
+    {
+      "id": "session-144",
+      "day": "Friday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CABSMJ7002",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-2",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-145",
+      "day": "Saturday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 1,
+      "endSlot": 3,
+      "course": "CABSMJ7D01",
+      "teachers": [],
+      "room": "Department",
+      "kind": "Project",
+      "note": "Project-I"
+    },
+    {
+      "id": "session-146",
+      "day": "Saturday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 4,
+      "endSlot": 4,
+      "course": "CABSMJ7001",
+      "teachers": [
+        "AIK"
+      ],
+      "room": "LTU-3",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-147",
+      "day": "Saturday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 5,
+      "endSlot": 5,
+      "course": "CABSMJ7V018",
+      "teachers": [
+        "MUB"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    },
+    {
+      "id": "session-148",
+      "day": "Saturday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 6,
+      "endSlot": 6,
+      "course": "CABSMJ7002",
+      "teachers": [
+        "MN"
+      ],
+      "room": "LTU-1",
+      "kind": "Lecture"
+    },
+    {
+      "id": "session-149",
+      "day": "Saturday",
+      "programme": "B.Sc.",
+      "semester": 7,
+      "classLabel": "B.Sc. VII",
+      "startSlot": 7,
+      "endSlot": 7,
+      "course": "CABSMJ7V02*",
+      "teachers": [
+        "SA"
+      ],
+      "room": "LTU-1",
+      "kind": "Elective"
+    }
+  ]
+}
