@@ -29,6 +29,7 @@
     printButton: document.getElementById("print-timetable"),
     resultHeading: document.getElementById("result-heading"),
     statSessions: document.getElementById("stat-sessions"),
+    statHours: document.getElementById("stat-hours"),
     statCourses: document.getElementById("stat-courses"),
     statClasses: document.getElementById("stat-classes"),
     statTeachers: document.getElementById("stat-teachers"),
@@ -82,6 +83,35 @@
     const end = getSlot(session.endSlot);
     if (!start || !end) return "";
     return `${start.time.split("–")[0]}–${end.time.split("–")[1]}`;
+  }
+
+  function parseTimeMinutes(value) {
+    const match = String(value).match(/^(\d{1,2}):(\d{2})$/);
+    if (!match) return null;
+    return Number(match[1]) * 60 + Number(match[2]);
+  }
+
+  function getSlotMinutes(slot) {
+    if (!slot || !slot.time) return 0;
+    const [startValue, endValue] = slot.time.split("–");
+    const startMinutes = parseTimeMinutes(startValue);
+    let endMinutes = parseTimeMinutes(endValue);
+    if (startMinutes === null || endMinutes === null) return 0;
+    if (endMinutes <= startMinutes) endMinutes += 12 * 60;
+    return endMinutes - startMinutes;
+  }
+
+  function getSessionMinutes(session) {
+    const startSlot = Number(session.startSlot);
+    const endSlot = Number(session.endSlot);
+    return timetable.timeSlots
+      .filter((slot) => Number(slot.id) >= startSlot && Number(slot.id) <= endSlot)
+      .reduce((total, slot) => total + getSlotMinutes(slot), 0);
+  }
+
+  function formatHours(minutes) {
+    const hours = minutes / 60;
+    return Number.isInteger(hours) ? String(hours) : hours.toFixed(1);
   }
 
   function getTeacherName(code) {
@@ -387,6 +417,9 @@
       : "No matching sessions";
 
     elements.statSessions.textContent = String(count);
+    elements.statHours.textContent = formatHours(
+      filteredSessions.reduce((total, session) => total + getSessionMinutes(session), 0),
+    );
     elements.statCourses.textContent = String(
       unique(filteredSessions.map((item) => item.course)).length,
     );

@@ -362,7 +362,7 @@ body {
 
 .stat-strip {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   border: 1px solid var(--line);
   border-radius: 12px;
   margin-bottom: 32px;
@@ -798,7 +798,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .stat-strip div:nth-child(3) {
+  .stat-strip div:nth-child(odd) {
     border-left: 0;
   }
 
