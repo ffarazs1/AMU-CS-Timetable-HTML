@@ -273,7 +273,7 @@
     render();
   }
 
-  function sessionCard(session, compact) {
+  function sessionCard(session, compact, attributes = "") {
     const teacherCodes = session.teachers.length
       ? session.teachers.join(" / ")
       : "Not specified";
@@ -282,7 +282,7 @@
 
     if (compact) {
       return `
-        <article class="session-card compact ${kindClass}">
+        <article class="session-card compact ${kindClass}"${attributes}>
           <div class="session-main">
             <span class="class-kicker">${escapeHtml(session.classLabel)}</span>
             <h3>${escapeHtml(session.course)}</h3>
@@ -361,7 +361,7 @@
     elements.agenda.innerHTML = sections;
   }
 
-  function renderGrid() {
+  function renderGridLegacy() {
     const selectedDay = elements.day.value;
     const visibleDays = selectedDay ? [selectedDay] : timetable.days;
     const head = timetable.timeSlots
@@ -407,6 +407,111 @@
         <thead><tr><th scope="col">Day</th>${head}</tr></thead>
         <tbody>${body}</tbody>
       </table>
+    `;
+  }
+
+  function renderGrid() {
+    const selectedDay = elements.day.value;
+    const visibleDays = selectedDay ? [selectedDay] : timetable.days;
+    const slotCount = timetable.timeSlots.length;
+    const head = timetable.timeSlots
+      .map(
+        (slot) => `
+          <div class="weekly-grid-slot" role="columnheader">
+            <span>${escapeHtml(slot.label)}</span>
+            <small>${escapeHtml(slot.time)}</small>
+          </div>
+        `,
+      )
+      .join("");
+
+    const body = visibleDays
+      .map((day) => {
+        const daySessions = filteredSessions
+          .filter((session) => session.day === day)
+          .sort(
+            (a, b) =>
+              Number(a.startSlot) - Number(b.startSlot) ||
+              Number(b.endSlot) - Number(a.endSlot) ||
+              a.classLabel.localeCompare(b.classLabel),
+          );
+        const lanes = [];
+        const positionedSessions = daySessions.map((session) => {
+          const startSlot = Number(session.startSlot);
+          const endSlot = Number(session.endSlot);
+          const startIndex = timetable.timeSlots.findIndex(
+            (slot) => Number(slot.id) === startSlot,
+          );
+          const endIndex = timetable.timeSlots.findIndex(
+            (slot) => Number(slot.id) === endSlot,
+          );
+          const startLine = startIndex === -1 ? 1 : startIndex + 1;
+          const endLine = endIndex === -1 ? startLine + 1 : endIndex + 2;
+          let laneIndex = lanes.findIndex((lastEndSlot) => lastEndSlot < startSlot);
+          if (laneIndex === -1) {
+            laneIndex = lanes.length;
+            lanes.push(endSlot);
+          } else {
+            lanes[laneIndex] = endSlot;
+          }
+          return { session, lane: laneIndex + 1, startLine, endLine };
+        });
+        const laneCount = Math.max(lanes.length, 1);
+        const slotBackground = timetable.timeSlots
+          .map(
+            (slot, index) => `
+              <div
+                class="weekly-slot-bg"
+                style="grid-column: ${index + 1}; grid-row: 1 / span ${laneCount};"
+                aria-hidden="true"
+              ></div>
+            `,
+          )
+          .join("");
+        const cards = positionedSessions
+          .map(({ session, lane, startLine, endLine }) =>
+            sessionCard(
+              session,
+              true,
+              ` style="grid-column: ${startLine} / ${endLine}; grid-row: ${lane};"`,
+            ),
+          )
+          .join("");
+
+        return `
+          <section
+            class="weekly-day-row"
+            role="row"
+            style="grid-template-columns: 110px minmax(${slotCount * 170}px, 1fr);"
+          >
+            <div class="weekly-day-label" role="rowheader">${escapeHtml(day)}</div>
+            <div
+              class="weekly-day-track"
+              style="grid-template-columns: repeat(${slotCount}, minmax(170px, 1fr)); grid-template-rows: repeat(${laneCount}, minmax(76px, auto));"
+            >
+              ${slotBackground}
+              ${
+                cards ||
+                `<span class="empty-cell weekly-empty-row" style="grid-column: 1 / ${slotCount + 1}; grid-row: 1;">-</span>`
+              }
+            </div>
+          </section>
+        `;
+      })
+      .join("");
+
+    elements.grid.innerHTML = `
+      <div class="weekly-grid" role="table" aria-label="Weekly timetable with days as rows and periods as columns">
+        <div
+          class="weekly-grid-header"
+          role="row"
+          style="grid-template-columns: 110px repeat(${slotCount}, minmax(170px, 1fr));"
+        >
+          <div class="weekly-grid-day-head" role="columnheader">Day</div>
+          ${head}
+        </div>
+        ${body}
+      </div>
     `;
   }
 

@@ -557,6 +557,89 @@ body {
   border-radius: 12px;
 }
 
+.weekly-grid-header,
+.weekly-day-row {
+  display: grid;
+}
+
+.weekly-grid {
+  min-width: max-content;
+}
+
+.weekly-grid-header {
+  background: var(--amu-green-dark);
+  color: #fff;
+}
+
+.weekly-grid-day-head,
+.weekly-grid-slot {
+  border-right: 1px solid rgba(255, 255, 255, 0.28);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 11px 8px;
+  text-align: center;
+}
+
+.weekly-grid-day-head {
+  position: sticky;
+  left: 0;
+  z-index: 4;
+  background: var(--amu-green-dark);
+}
+
+.weekly-grid-slot span,
+.weekly-grid-slot small {
+  display: block;
+}
+
+.weekly-grid-slot small {
+  margin-top: 3px;
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 0.62rem;
+  font-weight: 500;
+}
+
+.weekly-day-row {
+  background: #fff;
+}
+
+.weekly-day-label {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #eef4f1;
+  color: var(--amu-green-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.83rem;
+  padding: 12px;
+}
+
+.weekly-day-track {
+  display: grid;
+  position: relative;
+}
+
+.weekly-slot-bg {
+  min-height: 76px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
+.weekly-day-track .session-card.compact {
+  z-index: 1;
+  align-self: stretch;
+  margin: 5px;
+}
+
+.weekly-empty-row {
+  z-index: 1;
+  align-self: center;
+  justify-self: center;
+}
+
 .weekly-table {
   width: 100%;
   min-width: 1660px;
